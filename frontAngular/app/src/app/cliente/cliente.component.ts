@@ -10,7 +10,8 @@ import { Response } from '../models/response';
 export class ClienteComponent implements OnInit {
 
   public lst: any[] = [];
-  public columnas: string[] = [ 'id' , 'nombre' ];
+  public columnas: string[] = ['id' , 'nombre'];
+  
   constructor(
     private apiCliente: ApiclienteService
   ) {
